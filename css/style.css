@@ -88,15 +88,6 @@ hr{
   color: white;
 }
 
-/* .dark-mode hr {
-  background: white;
-} */
-
-/* .dark-mode .icon-box img {
-  filter: brightness(0) invert(1);
-} */
-
-
 
                             /* NAVIGATION BAR */
 
@@ -140,7 +131,8 @@ a{
     padding: 7px;
     border: none;
     border-radius: 10px;
-    background-color: var(--clr-text);
+    background-color: white;
+    border: 1px solid var(--clr-text);
 }
 .light-btn{
     display: none;
